@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
             cam.takePicture();
+            //if this wasnt throwing errors at 2:45 I would push the file names into an array to go encrypt later
         }
         cam.close();
     }
